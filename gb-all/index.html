@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-main.ico" type="img-icon">
+    <title>Desafio 01 à 06 até o EX010</title>
+</head>
+
+<body>
+    <h1>Praticando todo aprendizado.</h1>
+    <h2><EM>Indice de Aprendizado</EM></h2>
+    <ol type="1">
+        <li><strong>Adicionando Emoji e Letra Especial</strong></li>
+        <p>&cent;<br>
+            &#128591;</p>
+
+        <li><strong>Adicionando Imagens</strong></li>
+        <img src="img-teste.png" alt="cérebro">
+
+        <li><strong>Conhecendo Hierarquia de Títulos</strong></li>
+        <p>Sequências de: h1 > h2 > h3 > h4 > h5 > h6. como por Exemplo:</p>
+        <pre>
+            h1 TÍTULO PRINCIPAL
+                (h2) Exemplo 1
+                    (h3) Explicação 1.1
+                    (h3) Explicação 1.2
+                        (h4) Exemplo c/ explicação 1.2.1
+                (h2) Exemplo 2
+                    (h3) Exemplificação 2.1
+            </pre>
+
+        <li><strong>Semântica na HTML5</strong></li>
+        <p>Existem tag's que já não são mais utilizadas, deixaram de ter funcionalidade. É bom sempre se atualizar com o
+            decorrer do tempo! no site W3School contém essas informações de quais tag's estão ativas e também as que já
+            não estão mais...</p>
+
+        <li><strong>Negrito</strong> e <EM>Itálico</EM></li>
+        <pre>
+            Tornar frases em negrito:
+                Tag - B (não semântica)
+                Tag - Strong (semântica)
+            Tornar frases em itálico:
+                Tag - I (não semântica)
+                Tag - EM (semântica)
+            </pre>
+
+        <li><strong>Formatações Adicionais</strong></li>
+        <ul type="disc">
+            <li>Tag Mark = <mark>Marcador de texto</mark></li>
+            <li>Tag INS = <ins>Sublinhado</ins></li>
+            <li>Tag SUP = <sup>'etra acima</sup></li>
+            <li>Tag SUB = <sub>Letra abaixo</sub></li>
+            <li>Tag Small = <small>Letra pequena</small></li><br>
+        </ul>
+
+        <li><strong>Citações e Códigos</strong></li>
+        <p>A tag 'code' transforma as letras do texto selecionado no mesmo tamanho e proporção: <code>L / i </code>.
+        <p>A tag 'pre' faz com que seja da considerado espaços e pulos de linhas (sem ser com a tag 'br') executados
+            dentro do código:
+        <pre>Pré - Formatada</pre>
+        </p>
+        <p>A tag 'q' acrescenta aspas no texto <q><mark>selecionado</mark></q>. Bom ser usado em citações.</p>
+        <p>A tag 'abbr' cria uma abreviação <abbr title="Abreviação = Título">(tittle)</abbr> para a palavra/texto
+            selecionado quando o cursor do mouse para em cima.</p>
+
+        <li><strong>Listas- OL & UL</strong></li>
+        <p>Tag 'ol' siginifca que é uma 'Lista Ordenada'</p>
+        <p>Tag 'li' da sequencia a etapas a serem concluídas colocando'em ordens, mesmo que ela seja acrescentada no
+            meio ou após o surgimento de uma nova etapa.</p>
+        <!--Ao utilizar a tag ‘<ol type=”I”>’ será feito uma sequência em números romanos.
+            Ao utilizar a tag ‘<ol type=”a”>’ será feita com sequência do Alfabeto
+            Ao utilizar a tag ‘<ol type=”1”>’será feita com sequência numérica
+            
+            Listas não ordenadas, os tipos são:
+            ‘<ul type=”disc”>
+            ‘<ul type=”circle”>
+            ‘<ul type=”square”>-->
+
+        <li><strong>Links Internos</strong></li>
+        <p>Quando eu colocar dentro de 'href=”../”’ significa que eu vou puxar dados da pasta anterior. ( “./” é a mesma
+            pasta)
+        <p>'rel=“prev”' é igual a previous, ir para aba anterior.</p>
+        <p>'rel=“next”' é igual a próximo, ir para a próxima aba.</p>
+        <p>'target= “_self”' é designado para ela mesma (para a própria pagina/aba)</p>
+        <p>'rel=”nofollow”' significa não siga, mas tem relevância mesmo apenas para o mecanismo.</p>
+
+        <li><strong>Links e Âncoras</strong></li>
+        <p>Para acessar meu perfil no linkedin,<a href="https://www.linkedin.com/in/lucas-silva-tec/" target="_blank"
+                rel="external">Clique Aqui.</a>
+        </p>
+        <pre>a href=”(link aqui)” target=”_blank” rel=”external”</pre>
+
+        <ul type="disc">
+            <li>O 'a href' é uma âncora de referência onde você coloca o seu link para acesso. (está primeira tag foi
+                criada através de envelopamento que tem o comando de “Ctrl+shift+p >> enter >> a”)</p>
+            <li>O 'target=“_blank”' simbolizada que você está indicando ao site que este é um link externo, que é pra
+                ser
+                aberto em uma nova aba de internet. Ou seja, link de um outro site e não do mesmo.</p>
+            <li>O 'rel=”external”' é apenas para simbolizar pro site que este é um link externo.</p>
+        </ul>
+
+        <li><strong>Links Internos</strong></li>
+        <ul type="square">
+            <p>Para acessar a segunda página, <a href="secondpage.html" target="next">Clique Aqui.</a></p>
+            <p>Para acessar a terceira página, <a href="pag03.html/thirtdpage.html">Clique Aqui.</a></p>
+            <li>Quando eu colocar dentro de 'href=”../”' significa que eu vou puxar dados da pasta anterior. ( “./” é a
+                mesma
+                pasta)</p>
+            <li>' rel=“prev” ' é igual a previous, ir para aba anterior.</p>
+            <li>' rel=“next” ' é igual a próximo, ir para a próxima aba.</p>
+            <li>' target= “_self” ' é designado para ela mesma (para a própria pagina/aba)</p>
+            <li>' rel'”nofollow”' significa não siga, mas tem relevância mesmo apenas para o mecanismo.</p>
+        </ul>
+    </ol>
+</body>
+
+</html>

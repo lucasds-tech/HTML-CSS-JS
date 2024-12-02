@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="PT-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="widhth=device-width, initial-scale=1.0">
+        <title>Eventos de Input</title>
+        <script src="input.js"></script>
+    </head>
+    <body>
+        <h1>Eventos de Input</h1>
+        <form name="formTeste" onSubmit="return submit()" onreset="Resetei()">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome"
+            onblur="sairDoCampo()"
+            onchange="mudei()"
+            onfocus="entreiNoCampo()"
+            onselect="selecionei()"
+            onkeydown="teclaBaixo()"
+            onkeyup="teclaCima()"
+            ><br><br>
+            
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+
+        </form>
+        <br>
+        <h2>Log de Ocorrências</h2>
+        <div id="log"></div>
+    </body>
+</html>
